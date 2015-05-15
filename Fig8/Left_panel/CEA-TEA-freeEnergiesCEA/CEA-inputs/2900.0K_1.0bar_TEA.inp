@@ -1,0 +1,11 @@
+problem    case=2900.0K_1.0bar_TEA
+     tp    t,k=2900.0,  p,bar=1.00000000,
+react
+  name=H moles=1.0000000000
+  name=C moles=0.0002691535
+  name=N moles=0.0000676083
+  name=O moles=0.0004897788
+only
+  H C N O H2 CO CH4 H2O N2 NH3
+output    trace= 1.0E-100
+end

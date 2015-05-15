@@ -1,0 +1,144 @@
+
+ *******************************************************************************
+
+         NASA-GLENN CHEMICAL EQUILIBRIUM PROGRAM CEA2, MAY 21, 2004
+                   BY  BONNIE MCBRIDE AND SANFORD GORDON
+      REFS: NASA RP-1311, PART I, 1994 AND NASA RP-1311, PART II, 1996
+
+ *******************************************************************************
+
+
+
+ problem    case=958.61313K_1.8197009e-05bar_TEA
+      tp    t,k=958.61313,  p,bar=0.00001820,
+ react
+   name=H moles=1.0000000000
+   name=He moles=0.0851138038
+   name=C moles=0.0002691535
+   name=O moles=0.0004897788
+   name=N moles=0.0000676083
+   name=S moles=0.0000131826
+ only
+   H He C N O S H2 CO CO2 CH4 H2O HCN C2H4 N2 NH3 H2S
+ output    trace= 1.0E-100
+ end
+
+ OPTIONS: TP=T  HP=F  SP=F  TV=F  UV=F  SV=F  DETN=F  SHOCK=F  REFL=F  INCD=F
+ RKT=F  FROZ=F  EQL=F  IONS=F  SIUNIT=T  DEBUGF=F  SHKDBG=F  DETDBG=F  TRNSPT=F
+
+ T,K =   958.6131
+
+ TRACE= 1.00-100  S/R= 0.000000E+00  H/R= 0.000000E+00  U/R= 0.000000E+00
+
+ P,BAR =     0.000018
+
+    REACTANT           MOLES    (ENERGY/R),K   TEMP,K  DENSITY
+        EXPLODED FORMULA
+ N: H                1.000000   0.000000E+00     0.00  0.0000
+          H  1.00000
+ N: He               0.085114   0.000000E+00     0.00  0.0000
+          HE 1.00000
+ N: C                0.000269   0.000000E+00     0.00  0.0000
+          C  1.00000
+ N: O                0.000490   0.000000E+00     0.00  0.0000
+          O  1.00000
+ N: N                0.000068   0.000000E+00     0.00  0.0000
+          N  1.00000
+ N: S                0.000013   0.000000E+00     0.00  0.0000
+          S  1.00000
+
+  SPECIES BEING CONSIDERED IN THIS SYSTEM
+ (CONDENSED PHASE MAY HAVE NAME LISTED SEVERAL TIMES)
+  LAST thermo.inp UPDATE:    9/09/04
+
+  g 7/97  *C               g 8/99  CH4              tpis79  *CO            
+  g 9/99  *CO2             g 1/00  C2H4             g 6/97  *H             
+  g 6/01  HCN              tpis78  *H2              g 8/89  H2O            
+  g 4/01  H2S              g 5/97  *He              g 5/97  *N             
+  tpis89  NH3              tpis78  *N2              g 5/97  *O             
+  g 5/97  *S             
+
+ O/F =   0.000000
+
+                       EFFECTIVE FUEL     EFFECTIVE OXIDANT        MIXTURE
+ ENTHALPY                  h(2)/R              h(1)/R               h0/R
+ (KG-MOL)(K)/KG        0.00000000E+00      0.00000000E+00      0.00000000E+00
+
+ KG-FORM.WT./KG             bi(2)               bi(1)               b0i
+  *H                   0.73472404E+00      0.00000000E+00      0.73472404E+00
+  *He                  0.62535158E-01      0.00000000E+00      0.62535158E-01
+  *C                   0.19775355E-03      0.00000000E+00      0.19775355E-03
+  *O                   0.35985226E-03      0.00000000E+00      0.35985226E-03
+  *N                   0.49673443E-04      0.00000000E+00      0.49673443E-04
+  *S                   0.96855731E-05      0.00000000E+00      0.96855731E-05
+
+ POINT ITN      T            H           HE          C           O 
+                    N           S 
+   1   17     958.613     -14.236     -29.212     -12.559     -45.401
+                 -22.713     -22.613
+
+
+
+
+               THERMODYNAMIC EQUILIBRIUM PROPERTIES AT ASSIGNED
+
+                           TEMPERATURE AND PRESSURE
+
+ CASE = 958.61313K_1.81
+
+             REACTANT                       MOLES         ENERGY      TEMP
+                                                         KJ/KG-MOL      K
+ NAME        H                            1.0000000         0.000      0.000
+ NAME        He                           0.0851138         0.000      0.000
+ NAME        C                            0.0002692         0.000      0.000
+ NAME        O                            0.0004898         0.000      0.000
+ NAME        N                            0.0000676         0.000      0.000
+ NAME        S                            0.0000132         0.000      0.000
+
+ O/F=    0.00000  %FUEL=  0.000000  R,EQ.RATIO=*********  PHI,EQ.RATIO= 0.000000
+
+ THERMODYNAMIC PROPERTIES
+
+ P, BAR           0.00002
+ T, K              958.61
+ RHO, KG/CU M    5.3089-7
+ H, KJ/KG         7941.26
+ U, KJ/KG         4513.04
+ G, KJ/KG        -98088.4
+ S, KJ/(KG)(K)   110.6074
+
+ M, (1/n)           2.325
+ (dLV/dLP)t      -1.00000
+ (dLV/dLT)p        1.0000
+ Cp, KJ/(KG)(K)   12.3501
+ GAMMAs            1.4076
+ SON VEL,M/SEC     2196.7
+
+ MOLE FRACTIONS
+
+ *C              1.032-31
+ CH4             3.067-11
+ *CO             4.5942-4
+ *CO2            3.4841-7
+ C2H4            1.496-21
+ *H              1.5521-7
+ HCN             3.530-13
+ *H2             8.5369-1
+ H2O             3.7652-4
+ H2S             2.2518-5
+ *He             1.4539-1
+ *N              4.441-23
+ NH3             8.481-11
+ *N2             5.7744-5
+ *O              2.475-20
+ *S              1.434-11
+
+  * THERMODYNAMIC PROPERTIES FITTED TO 20000.K
+
+    PRODUCTS WHICH WERE CONSIDERED BUT WHOSE MOLE FRACTIONS
+    WERE LESS THAN 1.000000-100 FOR ALL ASSIGNED CONDITIONS
+
+
+
+
+

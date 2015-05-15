@@ -1,0 +1,19 @@
+This .txt file is for visual use only.
+These results are for the "/home/jasmina/Work/TEA/TEA-APJSupp-paper/TEA-paper-runs/White/header_white.txt" run.
+Iterations complete after 100 runs at 51.0344729 atm and 3500.0 K. Final computation:
+
+ Species |     Initial x |       Final x |         Delta |    Final Abun 
+     H_g |  0.1000000000 |  0.0406547723 | -0.0593452277 | 4.0654772e-02
+  H2_ref |  0.3500000000 |  0.1477100921 | -0.2022899079 | 1.4771009e-01
+   H2O_g |  0.5000000000 |  0.7831874075 |  0.2831874075 | 7.8318741e-01
+     N_g |  0.6000000000 |  0.0014138556 | -0.5985861444 | 1.4138556e-03
+    NH_g |  0.1000000000 |  0.0006931254 | -0.0993068746 | 6.9312544e-04
+    NO_g |  0.1000000000 |  0.0273972029 | -0.0726027971 | 2.7397203e-02
+  N2_ref |  0.1000000000 |  0.4852479080 |  0.3852479080 | 4.8524791e-01
+     O_g |  0.1000000000 |  0.0179412304 | -0.0820587696 | 1.7941230e-02
+    OH_g |  0.1000000000 |  0.0968571029 | -0.0031428971 | 9.6857103e-02
+  O2_ref |  0.1000000000 |  0.0373085281 | -0.0626914719 | 3.7308528e-02
+
+               Initial Total Mol : 2.1500000000
+                 Final Total Mol : 1.6384112254
+             Change in Total Mol : -0.5115887746

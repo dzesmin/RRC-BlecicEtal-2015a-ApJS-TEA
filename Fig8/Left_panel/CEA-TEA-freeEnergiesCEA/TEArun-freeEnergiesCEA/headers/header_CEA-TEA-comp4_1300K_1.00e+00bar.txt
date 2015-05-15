@@ -1,0 +1,19 @@
+# This is a header file for one T-P. It contains the following data:
+# pressure (bar), temperature (K), elemental abundances (b, unitless),
+# species names, stoichiometric values of each element in the species (a),
+# and chemical potentials.
+
+1.0000e+00
+1300.00
+b 1.0000000000e+00 2.6915348039e-04 6.7608297539e-05 4.8977881937e-04
+# Species  H  C  N  O  Chemical potential
+      H_g  1  0  0  0        4.616544
+      C_g  0  1  0  0     45.53322305
+      N_g  0  0  1  0     23.53822804
+      O_g  0  0  0  1       1.8824519
+   H2_ref  2  0  0  0   -18.19414182
+     CO_g  0  1  0  1    -36.5564762
+    CH4_g  4  1  0  0   -33.48474839
+    H2O_g  2  0  0  1   -48.12037511
+   N2_ref  0  0  2  0   -25.58302726
+    NH3_g  3  0  1  0   -31.09227234
